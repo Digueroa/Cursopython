@@ -15,3 +15,34 @@ print('-='*11)
 print('Computador jogou {}'.format(itens[computador]))
 print('Jogador jogou {}'.format(itens[jogador]))
 print('-='*11)
+if computador == 0: #Computador jogou PEDRA
+    if jogador ==0:
+        print('Empate')
+    elif jogador ==1:
+        print('Jogador Vence')
+    elif jogador ==2:
+        print('Computador Vence')
+    else:
+        print('JOGADA INVÁLIDA')
+
+    
+elif computador == 1:# Computador Jogou PAPEL
+     if jogador == 0:
+         print('Computador Vence')
+     elif jogador ==1:
+         print('Emapte')
+     elif jogador ==2:
+         print('Jogador Vence')
+     else:
+         print('JOGADA INVÁLIDA')
+
+elif computador == 2: #Computador Jogou TESOURA
+    if jogador == 0:
+        print('Jogador Vence')
+    elif jogador ==1:
+        print('Computador Vence')
+    elif jogador ==2:
+        print('Empate')
+    else:
+         print('JOGADA INVÁLIDA') 
+         
